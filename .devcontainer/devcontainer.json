@@ -1,0 +1,22 @@
+{
+  "name": "Integrador 2",
+
+  // Tells VS Code to build the Dockerfile in this folder
+  "build": {
+    "dockerfile": "ContainerFile"
+  },
+
+  // Forward the default Jupyter port
+  "forwardPorts": [8888],
+
+  // Extensions to install in VS Code
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-toolsai.jupyter",
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ]
+    }
+  }
+}

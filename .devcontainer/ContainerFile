@@ -1,0 +1,11 @@
+# Start from a base Python 3.11 image
+FROM mcr.microsoft.com/devcontainers/python:3.11-bookworm
+
+# Copy in your requirements file
+COPY ./requirements.txt /tmp/requirements.txt
+
+# Install the packages
+RUN pip install --no-cache-dir -r /tmp/requirements.txt
+
+# Clean up
+RUN rm /tmp/requirements.txt
