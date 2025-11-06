@@ -4,3 +4,6 @@ scikit-learn
 jupyterlab
 matplotlib
 seaborn
+google-genai
+unidecode
+pyarrow
