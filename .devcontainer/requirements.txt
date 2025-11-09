@@ -7,3 +7,5 @@ seaborn
 google-genai
 unidecode
 pyarrow
+
+pdfplumber
